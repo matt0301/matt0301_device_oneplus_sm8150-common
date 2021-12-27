@@ -127,6 +127,9 @@ ODM_MANIFEST_FILES += $(VENDOR_PATH)/manifest-qva.xml
 TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_oneplus-sm8150
 TARGET_RECOVERY_DEVICE_MODULES := libinit_oneplus-sm8150
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
