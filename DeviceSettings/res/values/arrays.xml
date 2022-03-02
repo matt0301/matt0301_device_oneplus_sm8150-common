@@ -15,6 +15,22 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Alert slider -->
+    <string-array name="notification_slider_action_entries" translatable="false">
+        <item>@string/notification_slider_mode_total_silence</item>
+        <item>@string/notification_slider_mode_silent</item>
+        <item>@string/notification_slider_mode_priority_only</item>
+        <item>@string/notification_slider_mode_vibrate</item>
+        <item>@string/notification_slider_mode_none</item>
+    </string-array>
+    <string-array name="notification_slider_action_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
     <!-- Screen off Gestures -->
     <string-array name="touchscreen_gesture_action_entries">
         <item>@string/touchscreen_gesture_action_do_nothing</item>
@@ -29,10 +45,9 @@
         <item>@string/touchscreen_gesture_action_next_track</item>
         <item>@string/touchscreen_gesture_action_volume_down</item>
         <item>@string/touchscreen_gesture_action_volume_up</item>
-        <item>@string/touchscreen_gesture_action_wakeup</item>
         <item>@string/touchscreen_gesture_action_ambient_display</item>
+        <item>@string/touchscreen_gesture_action_wake_device</item>
     </string-array>
-
     <string-array name="touchscreen_gesture_action_values">
         <item>0</item>
         <item>1</item>
@@ -48,22 +63,5 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
-    </string-array>
-
-    <!-- AlertSlider actions -->
-    <string-array name="alert_slider_modes">
-        <item>@string/mode_normal</item>
-        <item>@string/mode_priority</item>
-        <item>@string/mode_vibrate</item>
-        <item>@string/mode_silent</item>
-        <item>@string/mode_dnd</item>
-    </string-array>
-
-    <string-array name="alert_slider_mode_values">
-        <item>@*android:string/alert_slider_mode_normal</item>
-        <item>@*android:string/alert_slider_mode_priority</item>
-        <item>@*android:string/alert_slider_mode_vibrate</item>
-        <item>@*android:string/alert_slider_mode_silent</item>
-        <item>@*android:string/alert_slider_mode_dnd</item>
     </string-array>
 </resources>
