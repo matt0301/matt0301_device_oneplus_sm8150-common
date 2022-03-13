@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2021 The LineageOS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License"
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
           http://www.apache.org/licenses/LICENSE-2.0
@@ -12,8 +10,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Sensor types -->
-    <string name="pickup_sensor_type">oneplus.sensor.op_motion_detect</string>
-    <string name="pocket_sensor_type">oneplus.sensor.pocket</string>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
+
+     <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>

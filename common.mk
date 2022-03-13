@@ -234,7 +234,10 @@ PRODUCT_PACKAGES += \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor:64 \
     vendor.oneplus.hardware.display@1.0.vendor
 
+# Extra Stuff
 EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_BLUR := true
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -314,7 +317,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf 
+    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -357,7 +360,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libril_shim \
     librmnetctl \
-    libxml2 
+    libxml2
 
 # Vibrator
 PRODUCT_PACKAGES += \
