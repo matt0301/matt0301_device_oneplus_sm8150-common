@@ -31,6 +31,9 @@ persist.vendor.cne.feature=1
 # CoreSight STM
 persist.debug.coresight.config=stm-events
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
