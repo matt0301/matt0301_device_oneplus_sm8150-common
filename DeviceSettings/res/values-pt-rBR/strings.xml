@@ -16,7 +16,9 @@
 <resources>
 
     <!-- App Title -->
-    <string name="device_settings_title">Configurações OnePlus</string>
+    <!-- App Title -->
+    <string name="device_settings_title">Configurações Oneplus</string>
+    <string name="device_settings_summary">Deslizador de alerta, gestos</string>
 
     <string name="display_title">Visor</string>
 
