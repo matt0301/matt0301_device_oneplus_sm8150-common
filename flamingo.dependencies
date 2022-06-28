@@ -12,6 +12,12 @@
     "target_path" : "vendor/oneplus/sm8150-common"
   },
   {
+    "repository"  : "vendor_oneplus_camera",
+    "target_path" : "vendor/oneplus/camera",
+    "remote"	  : "flamingo-gitlab",
+    "clone-depth" : "1"
+  },
+  {
     "repository"  : "dora_clang",
     "target_path" : "prebuilts/clang-standalone",
     "remote"	  : "flamingo-gitlab",
