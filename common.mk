@@ -147,6 +147,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.product.manufacturer=OPD \
+    persist.vendor.camera.logInfoMask=false \
     ro.vendor.camera.res.fmq.size=1048576
 
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -156,6 +157,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.camera.assert.panic=true \
     persist.camera.privapp.list=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck \
     ro.opcamera.support=true \
+    log.tag.CHIUSECASE=ERROR \
     ro.vendor.product.manufacturer.db=OP_PHONE \
     ro.vendor.product.device.db=OP_DEVICE
 
