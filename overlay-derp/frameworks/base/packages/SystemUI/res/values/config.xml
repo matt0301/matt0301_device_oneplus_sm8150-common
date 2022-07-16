@@ -1,5 +1,5 @@
 <!--
-     Copyright (C) 2015-2019 AOSiP
+     Copyright (C) 2022 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
     <integer name="config_shift_interval">40</integer>
 
     <!-- HBM type of UDFPS overlay.
-            0 - GLOBAL HBM 
+            0 - GLOBAL HBM
             1 - LOCAL HBM
     -->
     <integer name="config_udfps_hbm_type">0</integer>
@@ -32,8 +32,11 @@
 
     <!-- FPS measure interval in milliseconds, default 1000 -->
     <integer name="config_fpsReadInterval">500</integer>
-    
+
     <!-- The battery current divider, some kernel report current value in mA other in µA.
          Leave 1 if you have mA, put 1000 if you have µA-->
     <integer name="config_battCurrentDivider" translatable="false">1000</integer>
+
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">60</integer>
 </resources>
