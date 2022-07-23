@@ -244,7 +244,6 @@ PRODUCT_PACKAGES += \
 # Extra Stuff
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_BLUR := true
 
 # FUSE passthrough
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -353,9 +352,6 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw \
     libstagefright_softomx.vendor
-
-# Oneplus cam
-TARGET_SHIPS_OOSCAM := false
 
 # Power
 PRODUCT_PACKAGES += \
