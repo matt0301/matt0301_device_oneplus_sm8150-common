@@ -561,7 +561,6 @@ vendor/lib64/libqtikeymaster4.so|bb08331f9b36c273ed44bbe3956ef7bafca97d2c
 vendor/lib64/libspcom.so|7cc4390e7caf520586c22cdb7219842fa5d6ed2c
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
