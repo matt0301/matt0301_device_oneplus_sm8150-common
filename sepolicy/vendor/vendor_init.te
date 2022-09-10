@@ -31,3 +31,6 @@ set_prop(vendor_init, vendor_nfc_prop)
 get_prop(vendor_init, vendor_db_security_prop)
 
 allow vendor_init block_device:lnk_file setattr;
+
+# Allow vendor init to set SSR property
+set_prop(vendor_init, vendor_ssr_prop)

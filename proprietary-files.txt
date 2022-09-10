@@ -894,6 +894,13 @@ vendor/lib64/libscveObjectSegmentation_stub.so|383c62c85c0752c0a6614d0ef99c3f8ec
 vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
 vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
 
+# SS Restart - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/ssr_diag|b1a45e7d5e887def7e106bfa6e4ab0c1af7faf86
+vendor/bin/ssr_setup|fdbcddb14a592fc2f2a11649ef443c34933fbc81
+vendor/bin/subsystem_ramdump|6fd57c08e514f8bf41212b0e9552fc44ae817b2c
+vendor/lib/libsubsystem_control.so|99a79e1e456a1d4138e19a555731f57f477e0300
+vendor/lib64/libsubsystem_control.so|133b04beab74a8c56510831fdbd40d19abfd75dc
+
 # Soter - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
