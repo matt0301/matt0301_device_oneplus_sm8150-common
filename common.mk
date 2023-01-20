@@ -160,6 +160,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     vendor.oneplus.hardware.camera@1.0.vendor:64 \
     vendor.qti.hardware.camera.device@1.0.vendor:64
+    
+PRODUCT_PACKAGES += \
+    Aperture    
 
 # Common init scripts
 PRODUCT_PACKAGES += \
