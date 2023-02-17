@@ -495,3 +495,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.sf.use_latest_hwc_vsync_period=0
+
+# Get Perf aspects
+$(call inherit-product, device/qcom/common/system/perf/qti-perf.mk)
+$(call inherit-product, device/qcom/common/vendor/perf-legacy/qti-perf-legacy.mk)
