@@ -472,3 +472,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Shishufy
 BOOTLEGGERS_BUILD_TYPE := Shishufied
+
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.oneplus_msmnile
