@@ -496,6 +496,3 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # KProfiles
 PRODUCT_PACKAGES += \
     KProfiles
-
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.sf.use_latest_hwc_vsync_period=0
